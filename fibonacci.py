@@ -10,9 +10,6 @@ def fibonacci(a,b,seq,max_len):
         return seq
 
 sequence = []
-seq_len = 12
+seq_len = int(input("How many fibonacci numbers do you want to see? "))
 fibonacci(0,1,sequence,seq_len)
-i = 0
-while i < len(sequence):
-    print(f"{sequence[i]} ")
-    i+=1
+print(sequence)
